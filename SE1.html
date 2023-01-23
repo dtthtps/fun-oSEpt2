@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+</head>
+<body>
+    <h1>Atividade 1</h1>
+    <div id="resultado"></div>
+    <div id="numero"></div>
+    <script>
+
+     let numero = Number(prompt("Digite um número:"));
+     let inicial
+     let resultado
+      inicial = numero
+     numero = numero % 2;
+
+      if (numero == 0) {
+       resultado = "o número é par"
+      } else {
+      
+       resultado= "o número é impar"
+      }
+     
+      document.getElementById("resultado").innerHTML=resultado;
+      document.getElementById("numero").innerHTML=numero;
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>
